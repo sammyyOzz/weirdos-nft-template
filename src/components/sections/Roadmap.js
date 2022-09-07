@@ -11,7 +11,6 @@ const Section = styled.section`
   position: relative;
   display: inline-block;
   overflow: hidden;
-
 `;
 const Title = styled.h1`
   font-size: ${(props) => props.theme.fontxxl};
@@ -77,10 +76,9 @@ const Items = styled.ul`
 
       @media (max-width: 48em) {
         border-radius: 0 50px 0 50px;
-      text-align: left;
+        text-align: left;
         p {
           border-radius: 0 40px 0 40px;
-
         }
       }
     }
@@ -96,8 +94,6 @@ const Items = styled.ul`
     div {
       border-radius: 0 50px 0 50px;
       text-align: left;
-
-      
     }
     p {
       border-radius: 0 40px 0 40px;
@@ -121,7 +117,6 @@ const ItemContainer = styled.div`
 
   @media (max-width: 48em) {
     width: 70%;
-
   }
 `;
 
