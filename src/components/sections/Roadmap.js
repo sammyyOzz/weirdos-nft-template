@@ -29,7 +29,7 @@ const Title = styled.h1`
 `;
 const Container = styled.div`
   width: 70%;
-  height: 200vh;
+  height: auto; //200vh;
   background-color: ${(props) => props.theme.body};
   margin: 0 auto;
   display: flex;
@@ -243,7 +243,7 @@ const Roadmap = () => {
           />
           <RoadMapItem
             addToRef={addToRefs}
-            title="Realising the manifesto/whitepaper"
+            title="Realising the manifesto/ whitepaper"
             // subtext="Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. At Repellat Placeat, Adipisicing Elit. At Repellat Placeat."
           />
           <RoadMapItem
