@@ -91,43 +91,44 @@ const Faq = () => {
 
       <Container>
         <Box>
-          <Accordion ScrollTrigger={ScrollTrigger} title="WHERE CAN I VIEW MY NFTS?">
-            Once minted or bought simply connect to your OpenSea account to view your NFTs.
+          <Accordion ScrollTrigger={ScrollTrigger} title="WHAT IS BOARDING PASS?">
+            Boarding pass is a collection of 5555 characters travelling around the solana blockchain
+            with the purpose of bringing web3 experience in real life shopping.
           </Accordion>
-          <Accordion ScrollTrigger={ScrollTrigger} title="WHAT IS THE METAVERSE?">
-            A metaverse is a network of 3D virtual worlds focused on social connection. In futurism
-            and science fiction, it is often described as a hypothetical iteration of the Internet
-            as a single, universal virtual world that is facilitated by the use of virtual and
-            augmented reality headsets.
+          <Accordion ScrollTrigger={ScrollTrigger} title="WHY SHOULD I CARE?">
+            We aim to build an IRL store brand that is based on web3 to give you the best 
+            day to day shopping experiences.
           </Accordion>
-          <Accordion ScrollTrigger={ScrollTrigger} title="WHY DO WE NEED ROYALTIES?">
-            The amount of royalties was fixed at 5% to finance the Weirdos Club's projects. We have
-            the ambition to organize multiple events around the world in order to strengthen the
-            community and build a network of entrepreneurs and investors with the same mindset and
-            common interests.
+          <Accordion ScrollTrigger={ScrollTrigger} title="WHAT DO I GAIN BY MINTING THE NFT/ INVESTING ON THE PROJECT?">
+            By minting the boarding pass Nft, you get to have access to the following:
+            <ul style={{ margin: '10px 0 0 15px' }}>
+              <li>Exclusive alpha calls</li>
+              <li>Job opportunities</li>
+              <li>Holder rewards (annual revenue allocation) to holders</li>
+              <li>Discounted prices on purchases made on the store and deliveries</li>
+              <li>Holders can list and sell their products an 
+                  goods on the e-commerce store free of charge. 
+              </li>
+            </ul>
           </Accordion>
         </Box>
         <Box>
-          <Accordion ScrollTrigger={ScrollTrigger} title="HOW CAN I USE MY NFT?">
-            You will be able to use your NFT as an avatar in the Metaverse and our future video
-            game. Holding also means that you are part of an exclusive network of investors and
-            entrepreneurs.
+          <Accordion ScrollTrigger={ScrollTrigger} title="DO BOARDING PASS HAVE A UTILITY TOKEN?">
+            Boarding pass will have a native utility token that will be used to make purchases across 
+            the stores and still be a token that can be held and traded on exchanges just like any other cryptocurrency.
           </Accordion>
           <Accordion
             ScrollTrigger={ScrollTrigger}
-            title="WHAT ARE THE WEIRDOS?"
+            title="IS THERE A WHITELIST?"
           >
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore deserunt consequatur
-            quisquam maxime molestias dolores ipsum, exercitationem vel sint quidem aliquam modi
-            quis impedit corporis unde inventore fugiat provident in.
+            There will be a whitelisting system that requires you apply or complete simple tasks (stay tuned in
+            the communities for more info on this).
           </Accordion>
           <Accordion
             ScrollTrigger={ScrollTrigger}
-            title="WHAT IS THE FUSION PROCESS?"
+            title="IS THE TEAM DOXXED?"
           >
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim veritatis iusto
-            officia. Exercitationem, ducimus reiciendis. Rem, maxime, similique neque minus aliquam
-            dolore doloremque laboriosam, facilis quibusdam unde sint officia.
+            Yes!... Boarding pass have a full doxxed team which can be seen on the website through the link below.
           </Accordion>
         </Box>
       </Container>

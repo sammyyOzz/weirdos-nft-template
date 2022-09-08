@@ -1,15 +1,15 @@
 import React, { lazy, Suspense } from "react";
 import styled from "styled-components";
 
-import img1 from "../../assets/Nfts/bighead.svg";
-import img2 from "../../assets/Nfts/bighead-1.svg";
-import img3 from "../../assets/Nfts/bighead-2.svg";
-import img4 from "../../assets/Nfts/bighead-3.svg";
-import img5 from "../../assets/Nfts/bighead-4.svg";
-import img6 from "../../assets/Nfts/bighead-5.svg";
-import img7 from "../../assets/Nfts/bighead-6.svg";
-import img8 from "../../assets/Nfts/bighead-7.svg";
-import img9 from "../../assets/Nfts/bighead-8.svg";
+import img1 from "../../assets/Nfts/space-6.PNG";
+import img2 from "../../assets/Nfts/space-1.PNG";
+import img3 from "../../assets/Nfts/space-2.jpg";
+import img4 from "../../assets/Nfts/space-3.PNG";
+import img5 from "../../assets/Nfts/space-4.PNG";
+import img6 from "../../assets/Nfts/space-5.PNG";
+// import img7 from "../../assets/Nfts/bighead-6.svg";
+// import img8 from "../../assets/Nfts/bighead-7.svg";
+// import img9 from "../../assets/Nfts/bighead-8.svg";
 import Loading from "../Loading";
 // import ConfettiComponent from '../Confetti';
 
@@ -137,16 +137,16 @@ const Team = () => {
       </Suspense>
       <Title>Team</Title>
       <Container>
-        <MemberComponent img={img1} name="SKYBLAZE" position="founder" />
-        <MemberComponent img={img2} name="MEGNUM" position="Co-Founder" />
-        <MemberComponent img={img3} name="MONKEY KING" position="Director" />
-        <MemberComponent img={img4} name="BLACK PANTHER" position="manager" />
-        <MemberComponent img={img5} name="DEATHSTROKE" position="artist" />
-        <MemberComponent img={img6} name="LAZY KONG" position="social media manager" />
-        <MemberComponent img={img7} name="CYBER PUNK" position="Blockchain Specialist" />
+        <MemberComponent img={img1} name="RIDER" position="founder" />
+        <MemberComponent img={img2} name="CHIU" position="Co-Founder" />
+        <MemberComponent img={img3} name="TRAVIS" position="advisor" />
+        <MemberComponent img={img4} name="MAKENZY" position="marketer" />
+        <MemberComponent img={img5} name="ROHAN" position="artist" />
+        <MemberComponent img={img6} name="" position="social media manager" />
+        {/* <MemberComponent img={img7} name="CYBER PUNK" position="Blockchain Specialist" />
         <MemberComponent img={img8} name="MONK" position="Web3 Developer" />
         <MemberComponent img={img9} name="BANANA" position="Graphic Designer" />
-        <MemberComponent img={img4} name="BLACK PANTHER" position="manager" />
+        <MemberComponent img={img4} name="BLACK PANTHER" position="manager" /> */}
       </Container>
     </Section>
   );

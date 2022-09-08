@@ -82,19 +82,19 @@ const TypeWriterText = () => {
               .typeString(`<span class="text-1">NFTs.</span>`)
               .pauseFor(2000)
               .deleteAll()
-              .typeString(`<span class="text-2">Collectible Items.</span>`)
+              .typeString(`<span class="text-2">Holder rewards.</span>`)
               .pauseFor(2000)
               .deleteAll()
-              .typeString(`<span class="text-3">Ape Killers!</span>`)
+              .typeString(`<span class="text-3">Shopping experience!</span>`)
               .pauseFor(2000)
               .deleteAll()
               .start();
           }}
         />
       </Title>
-      <SubTitle>Bored Of Apes? Try Something New.</SubTitle>
+      <SubTitle>Experience shopping on web3!.</SubTitle>
       <ButtonContainer>
-        <Button text="Explore" link="https://google.com" />
+        {/* <Button text="Explore" link="https://google.com" /> */}
       </ButtonContainer>
     </>
   );

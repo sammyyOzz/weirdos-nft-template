@@ -2,7 +2,7 @@
 
 export const light = {
   body: "#fff",
-  text: "#202020", // black shade
+  text: "rgb(8, 8, 44)", // black shade
   bodyRgba: "255, 255, 255",
   textRgba: "32,32,32",
 

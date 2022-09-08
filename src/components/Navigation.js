@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import Button from "./Button";
+import Button, { Btn } from "./Button";
 import Logo from "./Logo";
 
 const Section = styled.section`
@@ -156,17 +156,18 @@ const Navigation = () => {
           <MenuItem onClick={() => scrollTo("home")}>Home</MenuItem>
           <MenuItem onClick={() => scrollTo("about")}>About</MenuItem>
           <MenuItem onClick={() => scrollTo("roadmap")}>Roadmap</MenuItem>
-          <MenuItem onClick={() => scrollTo("showcase")}>Showcase</MenuItem>
+          {/* <MenuItem onClick={() => scrollTo("showcase")}>Showcase</MenuItem> */}
           <MenuItem onClick={() => scrollTo("team")}>Team</MenuItem>
           <MenuItem onClick={() => scrollTo("faq")}>Faq</MenuItem>
+          <MenuItem onClick={() => scrollTo("faq")}>Whitepaper</MenuItem>
           <MenuItem>
             <div className="mobile">
-              <Button text="Connect Wallet" link="https://google.com" />
+              <Button text="Connect Wallet" link="#" />
             </div>
           </MenuItem>
         </Menu>
         <div className="desktop">
-          <Button text="Connect Wallet" link="https://google.com" />
+          <Btn>Connect Wallet</Btn>
         </div>
       </NavBar>
     </Section>

@@ -19,7 +19,7 @@ const Title = styled.h1`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 1rem auto;
+  margin: 5rem auto 7rem auto;
   border-bottom: 2px solid ${(props) => props.theme.text};
   width: fit-content;
 
@@ -152,13 +152,27 @@ const Text = styled.span`
   }
 `;
 
-const RoadMapItem = ({ title, subtext, addToRef }) => {
+const RoadMapItem = ({ 
+  title, 
+  subtext, 
+  subtext2, 
+  subtext3, 
+  subtext4, 
+  subtext5, 
+  subtext6,
+  addToRef 
+}) => {
   return (
     <Item ref={addToRef}>
       <ItemContainer>
         <Box>
           <SubTitle>{title} </SubTitle>
-          <Text>{subtext}</Text>
+          { subtext && <Text>- {subtext}</Text> }
+          { subtext2 && <Text>- { subtext2 }</Text> }
+          { subtext3 && <Text>- { subtext3 }</Text> }
+          { subtext4 && <Text>- { subtext4 }</Text> }
+          { subtext5 && <Text>- { subtext5 }</Text> }
+          { subtext6 && <Text>- { subtext6 }</Text> }
         </Box>
       </ItemContainer>
     </Item>
@@ -215,28 +229,49 @@ const Roadmap = () => {
           <Item>&nbsp;</Item>
           <RoadMapItem
             addToRef={addToRefs}
-            title="Grand Opening"
-            subtext="Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. At Repellat Placeat, Adipisicing Elit. At Repellat Placeat."
+            title="Enroute to the airport"
+            subtext="Assembling team"
+            subtext2="Creating art collection"
+            subtext3="Launching social media"
+            subtext4="Whitelisting system"
           />
           <RoadMapItem
             addToRef={addToRefs}
-            title="Great Benefits"
-            subtext="Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. At Repellat Placeat, Adipisicing Elit. At Repellat Placeat."
+            title="Selling the tickets"
+            subtext="Marketing"
+            subtext2="Partenerships"
           />
           <RoadMapItem
             addToRef={addToRefs}
-            title="Early Access"
-            subtext="Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. At Repellat Placeat, Adipisicing Elit. At Repellat Placeat."
+            title="Realising the manifesto/whitepaper"
+            // subtext="Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. At Repellat Placeat, Adipisicing Elit. At Repellat Placeat."
           />
           <RoadMapItem
             addToRef={addToRefs}
-            title="New Merch"
-            subtext="Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. At Repellat Placeat, Adipisicing Elit. At Repellat Placeat."
+            title="Boarding the plane"
+            subtext="Mint/Sellout"
+            subtext2="Rarity tool listing"
+            subtext3="Listing on the marketplace (magiceden and opensea)"
+            subtext4="Holder verification system"
+            subtext5="Alpha calls (holders only)"
+            subtext6="Job opportunities (holders only)"
           />
           <RoadMapItem
             addToRef={addToRefs}
-            title="Holders Ranking"
-            subtext="Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. At Repellat Placeat, Adipisicing Elit. At Repellat Placeat."
+            title="Building the store"
+            subtext="Introducing the store brand"
+            subtext2="Opening the first store outlets"
+            subtext3="Holder rewards (first revenue share)"
+            subtext4="Mobile app development (Android and IOS)"
+          />
+          <RoadMapItem
+            addToRef={addToRefs}
+            title="Tokenization"
+            subtext="Launching the $BRD token"
+            subtext2="IDO (Initial DEX offering)"
+            subtext3="Adding liquidity to the $BRD token"
+            subtext4="Airdroping holders $BRD token"
+            subtext5="Annual revenue allocation to holders"
           />
         </Items>
       </Container>

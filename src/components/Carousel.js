@@ -8,16 +8,16 @@ import "swiper/css/navigation";
 
 import { Pagination, Navigation, Autoplay, EffectCards } from "swiper";
 
-import img1 from "../assets/Nfts/bighead.svg";
-import img2 from "../assets/Nfts/bighead-1.svg";
-import img3 from "../assets/Nfts/bighead-2.svg";
-import img4 from "../assets/Nfts/bighead-3.svg";
-import img5 from "../assets/Nfts/bighead-4.svg";
-import img6 from "../assets/Nfts/bighead-5.svg";
-import img7 from "../assets/Nfts/bighead-6.svg";
-import img8 from "../assets/Nfts/bighead-7.svg";
-import img9 from "../assets/Nfts/bighead-8.svg";
-import img10 from "../assets/Nfts/bighead-9.svg";
+import img1 from "../assets/Nfts/space-10.PNG";
+import img2 from "../assets/Nfts/space-1.PNG";
+import img3 from "../assets/Nfts/space-2.jpg";
+import img4 from "../assets/Nfts/space-3.PNG";
+import img5 from "../assets/Nfts/space-4.PNG";
+import img6 from "../assets/Nfts/space-5.PNG";
+import img7 from "../assets/Nfts/space-6.PNG";
+import img8 from "../assets/Nfts/space-7.PNG";
+import img9 from "../assets/Nfts/space-8.PNG";
+import img10 from "../assets/Nfts/space-9.PNG";
 
 import Arrow from "../assets/Arrow.svg";
 
@@ -129,43 +129,43 @@ const Carousel = () => {
       >
         <SwiperSlide>
           {" "}
-          <img width={500} height={400} src={img1} alt="The Weirdos" />{" "}
+          <img width={500} height={400} src={img1} alt="Boarding Pass" />{" "}
         </SwiperSlide>
         <SwiperSlide>
           {" "}
-          <img width={500} height={400} src={img2} alt="The Weirdos" />{" "}
+          <img width={500} height={400} src={img2} alt="Boarding Pass" />{" "}
         </SwiperSlide>
         <SwiperSlide>
           {" "}
-          <img width={500} height={400} src={img3} alt="The Weirdos" />{" "}
+          <img width={500} height={400} src={img3} alt="Boarding Pass" />{" "}
         </SwiperSlide>
         <SwiperSlide>
           {" "}
-          <img width={500} height={400} src={img4} alt="The Weirdos" />{" "}
+          <img width={500} height={400} src={img4} alt="Boarding Pass" />{" "}
         </SwiperSlide>
         <SwiperSlide>
           {" "}
-          <img width={500} height={400} src={img5} alt="The Weirdos" />{" "}
+          <img width={500} height={400} src={img5} alt="Boarding Pass" />{" "}
         </SwiperSlide>
         <SwiperSlide>
           {" "}
-          <img width={500} height={400} src={img6} alt="The Weirdos" />{" "}
+          <img width={500} height={400} src={img6} alt="Boarding Pass" />{" "}
         </SwiperSlide>
         <SwiperSlide>
           {" "}
-          <img width={500} height={400} src={img7} alt="The Weirdos" />{" "}
+          <img width={500} height={400} src={img7} alt="Boarding Pass" />{" "}
         </SwiperSlide>
         <SwiperSlide>
           {" "}
-          <img width={500} height={400} src={img8} alt="The Weirdos" />{" "}
+          <img width={500} height={400} src={img8} alt="Boarding Pass" />{" "}
         </SwiperSlide>
         <SwiperSlide>
           {" "}
-          <img width={500} height={400} src={img9} alt="The Weirdos" />{" "}
+          <img width={500} height={400} src={img9} alt="Boarding Pass" />{" "}
         </SwiperSlide>
         <SwiperSlide>
           {" "}
-          <img width={500} height={400} src={img10} alt="The Weirdos" />{" "}
+          <img width={500} height={400} src={img10} alt="Boarding Pass" />{" "}
         </SwiperSlide>
       </Swiper>
     </Container>

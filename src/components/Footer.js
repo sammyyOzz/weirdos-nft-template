@@ -9,10 +9,13 @@ import Twitter from "../Icons/Twitter";
 import LinkedIn from "../Icons/LinkedIn";
 import Loading from "./Loading";
 
+import discordLogo from "../assets/discord-logo.svg"
+
 const Banner = lazy(() => import("./Banner"));
 
 const Section = styled.section`
-  min-height: 100vh;
+  min-height: 50vh;
+  padding-bottom: 20px;
   width: 100vw;
   background-color: ${(props) => props.theme.body};
   position: relative;
@@ -131,24 +134,24 @@ const Footer = () => {
 
   return (
     <Section>
-      <Suspense fallback={<Loading />}>
+      {/* <Suspense fallback={<Loading />}>
         <Banner />{" "}
-      </Suspense>
+      </Suspense> */}
 
       <Container>
         <Left>
           <Logo />
           <IconList>
-            <a
+            {/* <a
               href="http://facebook.com"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="facebook"
             >
               <Facebook />
-            </a>
+            </a> */}
             <a
-              href="https://www.instagram.com/code.bucks/"
+              href="https://www.instagram.com/boardingpassnft.io/?hl=en"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="instagram"
@@ -156,7 +159,7 @@ const Footer = () => {
               <Instagram />
             </a>
             <a
-              href="https://twitter.com/code_bucks"
+              href="https://twitter.com/boardingpassnft"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="twitter"
@@ -164,32 +167,45 @@ const Footer = () => {
               <Twitter />
             </a>
             <a
+              href="https://discord.gg/dYberX9bw5"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="twitter"
+            >
+              <img 
+                src={discordLogo} 
+                alt="discord" 
+                height={24}
+              />
+            </a>
+            {/* <a
               href="http://linkedin.com"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="linkedin"
             >
               <LinkedIn />
-            </a>
+            </a> */}
           </IconList>
         </Left>
         <MenuItems>
           <Item onClick={() => scrollTo("home")}>Home</Item>
           <Item onClick={() => scrollTo("about")}>About</Item>
           <Item onClick={() => scrollTo("roadmap")}>Roadmap</Item>
-          <Item onClick={() => scrollTo("showcase")}>Showcase</Item>
+          {/* <Item onClick={() => scrollTo("showcase")}>Showcase</Item> */}
           <Item onClick={() => scrollTo("team")}>Team</Item>
           <Item onClick={() => scrollTo("faq")}>Faq</Item>
+          <Item onClick={() => scrollTo("faq")}>Whitepaper</Item>
         </MenuItems>
       </Container>
       <Bottom>
-        <span>&copy; {new Date().getFullYear()} Weirdos Club. All rights reserved.</span>
-        <span>
+        <span>&copy; {new Date().getFullYear()} Boarding Pass. All rights reserved.</span>
+        {/* <span>
           Made with &#10084; by{" "}
           <a href="http://youtube.com/codebucks" target="_blank" rel="noopener noreferrer">
             CodeBucks
           </a>
-        </span>
+        </span> */}
       </Bottom>
     </Section>
   );

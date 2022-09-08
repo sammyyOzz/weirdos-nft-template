@@ -3,6 +3,7 @@ import styled, { keyframes } from "styled-components";
 // import CoverVideo from '../CoverVideo'
 // import TypeWriterText from '../TypeWriterText'
 import RoundTextBlack from "../../assets/Rounded-Text-Black.png";
+import backgroundImage from '../../assets/dyna.jpg'
 import Loading from "../Loading";
 
 const CoverVideo = lazy(() => import("../CoverVideo"));
@@ -13,6 +14,7 @@ const Section = styled.section`
   width: 100vw;
   position: relative;
   background-color: ${(props) => props.theme.body};
+  /* background-image: url(${backgroundImage}); */
 `;
 
 const Container = styled.div`
