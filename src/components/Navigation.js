@@ -134,6 +134,8 @@ const Navigation = () => {
   const [click, setClick] = useState(false);
 
   const scrollTo = (id) => {
+    if (!id) return;
+
     let element = document.getElementById(id);
 
     element.scrollIntoView({
@@ -159,10 +161,11 @@ const Navigation = () => {
           {/* <MenuItem onClick={() => scrollTo("showcase")}>Showcase</MenuItem> */}
           <MenuItem onClick={() => scrollTo("team")}>Team</MenuItem>
           <MenuItem onClick={() => scrollTo("faq")}>Faq</MenuItem>
-          <MenuItem onClick={() => scrollTo("faq")}>Whitepaper</MenuItem>
+          <MenuItem onClick={() => scrollTo("")}>Whitepaper</MenuItem>
           <MenuItem>
             <div className="mobile">
-              <Button text="Connect Wallet" link="#" />
+              <Btn>Connect Wallet</Btn>
+              {/* <Button text="Connect Wallet" link="#" /> */}
             </div>
           </MenuItem>
         </Menu>

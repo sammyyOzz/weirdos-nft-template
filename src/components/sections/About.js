@@ -144,7 +144,7 @@ const About = () => {
             Welcome To The <br /> Boarding pass.
           </Title>
           <SubText>
-            Boarding pass is a collection of 3000 characters travelling on the solana blockchain.
+            Boarding pass is a collection of 5555 characters travelling on the solana blockchain.
           </SubText>
           <SubTextLight>
             The sole purpose of boarding pass is to bring web3 experience into real life shopping,
@@ -152,7 +152,7 @@ const About = () => {
           </SubTextLight>
           <ButtonContainer>
             <ThemeProvider theme={dark}>
-              <Button text="JOIN OUR DISCORD" link="https://google.com" />
+              <Button text="JOIN OUR DISCORD" link="https://discord.gg/dYberX9bw5" />
             </ThemeProvider>
           </ButtonContainer>
         </Box>

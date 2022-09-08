@@ -123,6 +123,8 @@ const Bottom = styled.div`
 
 const Footer = () => {
   const scrollTo = (id) => {
+    if (!id) return;
+    
     let element = document.getElementById(id);
 
     element.scrollIntoView({
@@ -195,7 +197,7 @@ const Footer = () => {
           {/* <Item onClick={() => scrollTo("showcase")}>Showcase</Item> */}
           <Item onClick={() => scrollTo("team")}>Team</Item>
           <Item onClick={() => scrollTo("faq")}>Faq</Item>
-          <Item onClick={() => scrollTo("faq")}>Whitepaper</Item>
+          <Item onClick={() => scrollTo("")}>Whitepaper</Item>
         </MenuItems>
       </Container>
       <Bottom>
